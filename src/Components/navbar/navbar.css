@@ -11,3 +11,17 @@
     width: 12%;
     padding: 10px 10px 10px 20px;
 }
+
+.menu{
+    float: right;
+    padding: 10px;
+}
+
+.menu a{
+    color: #000;
+    margin-right: 25px;
+}
+
+.menu a:hover{
+    color: #d24434;
+}
