@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Saudacao from './Components/saudacao/saudacao';
+import './style/global.css'
+import Home from './pages/home/home.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <Saudacao/>
+  <Home />
   </>
 
 );
