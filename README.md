@@ -1,3 +1,7 @@
+# System description
+
+SIREAG is an environment reservation system designed specifically to meet the needs of Escola do Futuro de Goiás Sarah Luiza Lemos Kubitschek.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

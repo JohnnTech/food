@@ -1,23 +1,20 @@
 import Navbar from "../../Components/navbar/navbar.jsx";
-import ProdutoVitrine from "../../Components/produto-vitrine/produto-vitrine.jsx";
+import Laboratorios from "../../Components/laboratorio-efg/laboratorio.jsx";
 
 function Home() {
     return <>
        <Navbar />
        <div className="container">
             <div className="titulo text-center">
-                <h1>Nosso Cardápio</h1>
-                <p className="subtitulo">Clique aqui para colocar is produtos na  sacola de compras.
-                Se preferir, você pode pedir pelo WhatsApp: (61) 994525-54285 <br />
+                <h1>SIREAG</h1>
+                <p className="subtitulo">
+                    O SIREAG é um sistema de reserva de ambientes projetado especificamente para atender às necessidades da Escola do Futuro de Goiás Sarah Luiza Lemos Kubitschek. <br />
                 </p>
             </div>
-
        </div>
        <div className="text-center">
-            <ProdutoVitrine/>
-            <ProdutoVitrine/>
-            <ProdutoVitrine/>
-            <ProdutoVitrine/>
+            <Laboratorios/>
+            <Laboratorios/>
         </div>
     </>
 }

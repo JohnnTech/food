@@ -29,8 +29,8 @@ a{
     cursor: pointer;
 }
 
-.btn-red{
-    background-color: #E84F3D;
+.btn-green{
+    background-color: #218257;
     color:#fff;
     border: 0px;
     padding: 10px;
@@ -52,7 +52,7 @@ a{
 }
 
 .btn-cart:hover{
-    background-color: #d24434;
+    background-color: #218257;
 }
 
 .container{

@@ -1,16 +1,13 @@
 import "./navbar.css";
-import logo from "../../assets/logo.png";
-import bag from "../../assets/bag.png"
+import logo from "../../assets/logo-efg.svg";
 
 function Navbar(){
     return <div className="navbar">
         <img src={logo} className="logotipo" alt="Logotipo" />
         <div className="menu">
-            <a href="#">Histórico</a>
-            <button className="btn btn-red">
-                <img src={bag} className="icon"/>
-                Sacola
-            </button>
+            <a href="#">Home</a>
+            <a href="#">Reservado</a>
+            <a href="#">Reservar</a>
         </div>
     </div>
 }
